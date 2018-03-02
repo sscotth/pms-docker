@@ -1,4 +1,4 @@
-FROM plexinc/pms-docker:plexpass
+FROM plexinc/pms-docker:beta
 
 RUN apt-get update \
     && apt-get upgrade -y \
